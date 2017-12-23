@@ -1,24 +1,27 @@
-# README
+* bunlde install	
+	- To install all the gems from GemFile
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Admin User details
+	-email: bakirts92@gmail.com
+	-password: bakirsharaf
 
-Things you may want to cover:
+* Admin user can view all the orders, delete order, 
 
-* Ruby version
+* To add a food item, first admin have to add category because category must exist in 'items' table.
 
-* System dependencies
+* After adding category, admin can successfully create food items
 
-* Configuration
+* User need to be singed-in to add menu item to cart
 
-* Database creation
+* After logging in, user can add items to cart with specified quantity
 
-* Database initialization
+* User can view the cart and update quantity if need be
 
-* How to run the test suite
+* After checkout, order is updated with total order amount including tax and delivery charges for the logged in user
 
-* Services (job queues, cache servers, search engines, etc.)
+* User can view their own order 
 
-* Deployment instructions
+* User can edit their own profile
 
-* ...
+* Admin can delete the user
+
